@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>빙그레</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./css/import.css">
+<!--웹폰트(나눔고딕)-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+<!--header스크롤-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/bootstrap.offcanvas.css"/>
+
+<!--//header스크롤 스크립트-->
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.offcanvas.js"></script>
+
+<!--풀다운-->
+<link rel="stylesheet" type="text/css" href="./FullDown_Menu/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="./FullDown_Menu/css/common.css" />
+<script type="text/javascript" src="./FullDown_Menu/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/guide.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/hover.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/TweenMax.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/TweenLite.js"></script>
+
+</head>
+
+<body>
+<header id="pc_header"><!-- header-->
+	<div class="inner">
+		<div class="header01">
+			
+			<div class="headerD"><!-- headerD-->	
+			<!--logo-->
+			<h1><a href="index.html"><img src="./images/common/logo.png" /></a></h1>
+			
+			<!--gnb-->
+				<div class="gnbD">
+					<ul class="gnb">
+						<li class="gL1 uta">
+							<a href="sub01.html" class="oneD">회사소개</a>
+							<div class="twoD1 waltz">
+								<a href="sub01.html"><span>빙그레소개</span></a>
+								<a href="sub01.html"><span>글로벌빙그레</span></a>
+								<a href="sub01.html"><span>투자정보</span></a>
+								<a href="sub01.html"><span>인재채용</span></a>									
+							</div>
+						</li> 
+						
+						<li class="gL2 uta">
+							<a href="sub02.html" class="oneD">제품소개</a>
+							<div class="twoD2 waltz">
+								<a href="sub02.html"><span>아이스크림</span></a>
+								<a href="sub02.html"><span>우유 / 치즈</span></a>
+								<a href="sub02.html"><span>발효유</span></a>
+								<a href="sub02.html"><span>커피 / 음료</span></a>
+								<a href="sub02.html"><span>스낵 / 디저트</span></a>
+							</div>
+						</li>  
+					
+						<li class="gL3 uta">
+							<a href="sub04.html" class="oneD">홍보센터</a>
+							<div class="twoD3 waltz">
+								<a href="sub04.html"><span>빙그레CF</span></a>
+								<a href="sub04.html"><span>보도자료</span></a>
+								<a href="sub04.html"><span>사회공헌</span></a>			
+							</div>
+						</li>  
+					
+						<li class="gL4 uta">
+							<a href="sub05.html" class="oneD">소통해요</a>
+							<div class="twoD4 waltz">
+								<a href="sub05.html"><span>고객센터</span></a>
+								<a href="sub05.html"><span>공지사항</span></a>
+							</div>	
+						</li>  
+					</ul>
+				</div><!--// gnbD -->
+			</div><!--// headerD -->
+			
+			<div id="portal">
+					<ul id="ordermenu">
+						<li><a href="https://srm.bing.co.kr/">구매 포털사이트</a></li>
+						<li><a href="https://recruit.bing.co.kr/app/web/main/index_new.jsp">인재채용</a></li>
+					</ul><!--구매포털사이트/인재채용-->
+				
+					<p><a href="#"><img src="./images/common/global.gif" alt="global"></a></p>
+				</div><!--portal종료-->
+			
+		</div><!--//header01-->
+	</div><!--//inner-->
+</header><!--//pc_header-->
+
+
+
+
+
+<header id="tm_header">
+        <nav class="navbar navbar-default white" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+					<p class="global"><a href="#"><img src="./images/common/t_global.gif"></a></p>
+					
+                    <p class="move"><a href="index.html"><img src="./images/common/t_logo.png"></a><p>
+					
+                    <button type="button" class="navbar-toggle offcanvas-toggle pull-right ximg" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </span>
+                    </button>
+                </div><!--//navbar-header-->
+				
+                 <div class="navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
+				 
+					<div id="buy">
+						<p><a href="https://srm.bing.co.kr/">포털사이트</a></p>
+						<p><a href="https://recruit.bing.co.kr/app/web/main/index_new.jsp">인재채용</a></p>
+					</div><!--//buy-->
+					
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">회사소개 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+                                <li><a href="sub01.html">빙그레소개</a></li>
+                                <li><a href="sub01.html">글로벌빙그레</a></li>
+                                <li><a href="sub01.html">투자정보</a></li>
+                                <li></li>
+                                <li><a href="sub01.html">윤리경영</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+						
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">제품소개 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+                                <li><a href="sub02.html">아이스크림</a></li>
+                                <li><a href="sub02.html">우유 / 치즈</a></li>
+                                <li><a href="sub02.html">발효유</a></li>
+                                <li></li>
+                                <li><a href="sub02.html">커피 / 음료</a></li>
+								<li><a href="sub02.html">스낵 / 디저트</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+						
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">홍보센터 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+                                <li><a href="sub04.html">CF</a></li>
+                                <li><a href="sub04.html">보도자료</a></li>
+                                <li><a href="sub04.html">사회공헌</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+						
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">고객센터 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+                                <li><a href="sub05.html">고객센터</a></li>
+                                <li><a href="sub05.html">공지사항</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+						
+                    </ul><!--//nav navbar-nav-->
+					
+					
+					<div id="pinks">
+						<p><a href="#">Tft몰 바로가기</a></p>
+						<p><a href="#">끌레도르 구독하기</a></p>
+					</div><!--//pinks-->
+					
+					<div id="sns">
+						<p><a href="#"><img src="./images/sub03/face.gif"></a></p>
+						<p><a href="#"><img src="./images/sub03/you.gif"></a></p>
+						<p><a href="#"><img src="./images/sub03/insta.gif"></a></p>
+					</div><!--//sns-->
+                    
+                        
+                    
+                </div><!--//navbar-offcanvas-->
+            </div><!--//container-fluid-->
+        </nav>
+    </header><!--//tm_header-->
+
+
+
+<section id="sub05_visual">
+	<div class="inner">
+		<div class="visual_name">
+			<h3>Service center</h3>
+			<p>고객센터</p>
+		</div><!--//visual_name-->
+	</div><!--//inner-->
+	
+	<div class="m_subnavi">
+		<select id="pink">
+			<option value="all">고객센터</option>
+			<option value="icecream">공지사항</option>
+		</select>
+	<div><!--//m_subnavi-->
+</section><!--//visual-->
+
+
+
+
+<section class="subnavi">
+	<div class="inner">
+		<ul>
+			<li><a href="#">고객센터</a></li>
+			<li><a href="#" class="active">공지사항</a></li>
+		</ul>
+	</div>
+</section><!--//subnavi-->
+
+
+
+<section id="sub05_title">
+	<div class="inner">
+		<p class="imo"><img src="./images/sub05/c1_imo.png"></p>
+		<div class="Pcmini_t">
+			<h3>Our Promise</h3>
+			<p><img src="./images/main/t_line.gif"></p>
+			<p>모두와 공존해 지속가능한 성장을 추구하는 빙그레기업</p>
+		</div><!--Pcmini_t-->
+	</div><!--//inner-->
+</section><!--//sub04_title-->
+
+
+
+<section id="sub05_contents1">
+	<div class="inner">
+		<ul>
+			<li><a href="#"><img src="./images/sub05/c1_1.png"></a></li>
+			<li><a href="#"><img src="./images/sub05/c1_2.png"></a></li>
+			<li><a href="#"><img src="./images/sub05/c1_3.png"></a></li>
+			<li><a href="#"><img src="./images/sub05/c1_4.png"></a></li>
+		</ul>
+		
+		<div class="click_b">
+			<p><a href="#">자주묻는질문</a></p>
+			<p><a href="#" class="active">1:1 이메일문의</a></p>
+			<p><a href="#">개인정보 처리방침</a></p>
+			<p><a href="#">고객상담센터</a></p>
+		</div><!--//click_b-->
+	</div><!--//inner-->
+</section><!--//sub05_contents1-->
+
+
+
+
+<section id="sub05_contents2">
+	<div class="inner">
+		<h3>1:1문의</h3>
+		
+		<div class="in_contents">
+			<table class="again">
+				<tr class="moonhye">
+					<td class="a_left">문의종류</td>
+					<td class="a_right">
+						<div class="selects">
+							<select class="c_things">
+								<option value="chose">선택</option>
+								<option value="complain">소비자불편문의</option>
+								<option value="general">일반문의</option>
+								<option value="idea">아이디어제안</option>
+								<option value="selfinfo">개인정보문의</option>
+							</select><!--c_things-->
+						</div>
+					</td>
+				</tr><!--//moonhye-->
+				<tr>
+					<td class="a_left">이름</td>
+					<td class="a_right">
+						<div class="textW">
+							<input type="text"></input>
+						</div>
+					</td>
+				</tr>
+				<tr class="moonhye">
+					<td class="a_left">이메일</td>
+					<td class="a_right">
+						<div class="textW">
+							<input type="text"></input>
+							<input type="text"></input>
+							
+							<div class="selects">
+								<select class="c_things">
+									<option value="naver">naver.com</option>
+									<option value="daum">daum.net</option>
+									<option value="google">google.com</option>
+									<option value="nate">nate.com</option>
+									<option value="selfinput">직접입력</option>
+								</select><!--c_things종료-->
+							</div><!--selects종료-->
+						</div>
+					</td>
+				</tr><!--//moonhye-->
+				<tr>
+					<td class="a_left">전화번호</td>
+					<td class="a_right">
+						<div class="textW">
+							<input type="text"></input>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="a_left">주소</td>
+					<td class="a_right">
+						<div class="textW">
+							<input type="text"></input>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="a_left">제목</td>
+					<td class="a_right">
+						<div class="textW">
+							<input type="text"></input>
+						</div>
+					</td>
+				</tr>
+				<tr class="input_text">
+					<td class="a_left">내용</td>
+					<td class="a_right">
+						<div class="textW">
+							<input type="text"></input>
+						</div>
+					</td>
+				</tr><!--//input_text-->
+				<tr class="addthings">
+					<td class="a_left">첨부내용</td>
+					<td class="a_right">
+						<div class="textW">
+							<p>파일선택</p>
+						</div>
+					</td>
+				</tr>
+				<tr class="autothings">
+					<td class="a_left">자동방지글</td>
+					<td class="a_right">
+						<div class="textW">
+							<p>035223</p>
+							<input type="text"></input>
+						</div>
+					</td>
+				</tr>
+			</table><!--again종료-->
+		</div><!--in_contnets종료-->
+	</div><!--inner종료-->
+</section><!--sub05_contents2종료-->
+
+
+
+
+<section id="sub05_contents2_t">
+	<div class="inner">
+		<div class="line">
+			<p class="miniT">문의종류</p>
+			<div class="selects">
+				<select class="c_things">
+					<option value="chose">선택</option>
+					<option value="complain">소비자불편문의</option>
+					<option value="general">일반문의</option>
+					<option value="idea">아이디어제안</option>
+					<option value="selfinfo">개인정보문의</option>
+				</select><!--c_things-->
+			</div>
+		</div><!--line-->
+		
+		<div class="line">
+			<p class="miniT">이름</p>
+			<div class="textW">
+				<input type="text"></input>
+			</div>
+		</div><!--line-->
+		
+		<div class="line">
+			<p class="miniT">이메일</p>
+			<div class="textW">
+				<input type="text"></input>
+				<div class="selects">
+					<select class="c_things">
+						<option value="naver">naver.com</option>
+						<option value="daum">daum.net</option>
+						<option value="google">google.com</option>
+						<option value="nate">nate.com</option>
+						<option value="selfinput">직접입력</option>
+					</select><!--c_things종료-->
+				</div><!--selects종료-->
+			</div>
+		</div><!--line-->
+		
+		<div class="line">
+			<p class="miniT">전화번호</p>
+			<div class="textW">
+				<input type="text"></input>
+			</div>
+		</div><!--line-->
+		
+		<div class="line">
+			<p class="miniT">주소</p>
+			<div class="textW">
+				<input type="text"></input>
+			</div>
+		</div><!--line-->
+		
+		<div class="line">
+			<p class="miniT">제목</p>
+			<div class="textW">
+				<input type="text"></input>
+			</div>
+		</div><!--line-->
+		
+		<div class="line">
+			<p class="miniT">내용</p>
+			<div class="textW">
+				<input type="text"></input>
+			</div>
+		</div><!--line-->
+		
+		<div class="line">
+			<p class="miniT">첨부내용</p>
+			<div class="textW">
+				<p>파일선택</p>
+			</div>
+		</div><!--line-->
+		
+		<div class="line">
+			<p class="miniT">자동방지글</p>
+			<div class="textW">
+				<p>035223</p>
+				<input type="text" id="imotion"></input>
+			</div>
+		</div><!--line-->
+		
+	</div><!--inner종료-->
+</section><!--sub04_contents2_t종료-->
+
+
+
+
+
+<section id="sub05_contents3">
+	<div class="inner">
+		<h4>개인정보처리방침(필수)</h4>
+		<div id="agree_text">
+			<span class="bold_1">이용자는 개인정보 수집 및 이용에 동의하지 않을 권리가 있습니다. 그러나, 동의하지 않으실 경우 상담, 문의 신청이 접수되지 않습니다.</span><br><br><br>
+			기타 개인정보 처리에 관한 자세한 사항은 홈페이지 하단 개인정보처리방침을 참고하시기 바랍니다.<br><br><br>
+			<span class="extrabold_1">개인정보 수집 이용에 관한 동의</span><br><br>
+			회사는 고객 상담, 서비스 문의 등을 위해 아래와 같은 개인정보를 수집하고 있습니다.<br><br>
+			- 수집 항목 : 필수항목(이름, 이메일, 전화번호), 선택항목(주소)<br>
+			- 수집 목적 : 상담, 문의 신청 접수 및 결과 통보, 기타 민원 응대<br>
+			- 개인정보 수집방법 : 이용자가 홈페이지상에 직접 입력<br>
+			- 서비스 이용과정이나 사업 처리 과정에서 자동으로 수집될 수 있는 항목 : 서비스 이용기록, 접속로그, 쿠키, 접속 IP정보<br><br><br>
+			<span class="extrabold_1">개인정보의 보유 및 이용기간</span><br><br>
+			회사는 수집 이용 목적이 달성된 때에는 고객의 개인정보를 지체없이 파기합니다.<br>
+			다만 상법, 전자상거래등에서의 소비자보호에 관한 법률 등 법령의 규정에 의하여 보존할 필요성이 있는 경우에는 아래의 예시와 같이 고객의 개인정보를 보관할 수 있습니다.<br><br>
+
+			<span class="extrabold_1">관계법령에 의한 보존 사유(예시)</span><br><br>
+
+			이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.<br><br>
+
+			1) 계약 또는 청약철회 등에 관한 기록 : 5년<br>
+			2) 대금결제 및 재화 등의 공급에 관한 기록 : 5년<br>
+			3) 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년<br>
+			기타 개인정보 처리에 관한 자세한 사항은 홈페이지 하단 개인정보처리방침을 참고하시기 바랍니다.<br><br><br>
+			<span class="bold_1">이용자는 개인정보 수집 및 이용에 동의하지 않을 권리가 있습니다. <br>그러나, 동의하지 않으실 경우 상담, 문의 신청이 접수되지 않습니다.<br><br> 기타 개인정보 처리에 관한 자세한 사항은 홈페이지 하단 개인정보처리방침을 참고하시기 바랍니다.</span><br><br><br>
+		</div><!--agree_text종료-->
+		
+		<div class="checkbox_1">
+			<input type="checkbox"></input>
+			<p>개인정보 수집 및 이용에 동의합니다</p>
+		</div><!--checkbox_1-->
+		
+		<div class="red_box">
+			<p><a href="#"><img src="./images/sub05/button.gif"></a></p>
+		</div>
+	</div><!--//inner-->
+</section><!--//sub05_contents3-->
+
+
+
+
+
+
+
+
+<footer>
+	<div class="outer">
+		<div class="inner">
+			<div id="f_box1">
+				<h3><a href="#"><img src="./images/common/f_logo.png" alt="en_logo"></a></h3>
+			</div><!--f_box1종료-->
+			
+			<div id="f_box2">
+				<ul>
+					<li><a href="#">오시는 길</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">고객센터</a></li>
+					<li><a href="#">1:1 이메일 문의</a></li>
+				</ul>
+				
+				<div id="whitetext">
+					<p>080-022-0056 (이용시간 평일 09:00~17:30)</p>
+					<address>경기도 남양주시 다산동 4344-3 / 경기도 남양주시 다산순환로 45(다산동)</address>
+					<p id="copy">&copy; Binggrae all rights reserved.</p>
+				</div><!--whitetext종료-->
+			</div><!--f_box2종료-->
+			
+			<div id="f_box3">
+				<div id="form">
+					<select id="familysite">
+						<option value="youtube">Family site</option>
+						<option value="youtube">빙그레기업유튜브</option>
+						<option value="insta">빙그레기업인스타그램</option>
+						<option value="tft">tft몰</option>
+					</select>
+				</div><!--form종료-->
+			
+				<ul>
+					<li><a href="#"><img src="./images/common/insta.png" alt="insta"></a></li>
+					<li><a href="#"><img src="./images/common/youtube.png" alt="insta"></a></li>
+					<li><a href="#"><img src="./images/common/facebook.png" alt="insta"></a></li>
+				</ul>
+			</div><!--f_box3종료-->
+		</div><!--inner종료-->
+	</div><!--outer종료-->
+</footer><!--footer종료-->
+
+</body>
+
+</html>

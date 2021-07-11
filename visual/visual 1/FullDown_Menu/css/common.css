@@ -1,0 +1,85 @@
+
+html,body,main{height:100%;}
+body{position:relative;}
+
+/*base.css*/
+
+/*----웹폰트----*/
+
+	@font-face {
+	font-family:'NanumGothic';  /* 나눔고딕 */
+	font-weight:400;
+	src: url('../font/NanumGothic/NanumGothic.eot');
+	src: url('../font/NanumGothic/NanumGothic.eot?#iefix') format('embedded-opentype'),
+		 url('../font/NanumGothic/NanumGothic.woff') format('woff'),
+		 url('../font/NanumGothic/NanumGothic.ttf') format('truetype');
+ }
+
+@font-face {
+	font-family: 'nanum-square-r';
+	src: url('../font/nanum-square-r/nanumsquarer.eot');
+	src: url('../font/nanum-square-r/nanumsquarer.eot?#iefix') format('embedded-opentype'),
+		 url('../font/nanum-square-r/nanumsquarer.woff2') format('woff2'),
+		 url('../font/nanum-square-r/nanumsquarer.woff') format('woff'),
+		 url('../font/nanum-square-r/nanumsquarer.ttf') format('truetype'),
+		 url('../font/nanum-square-r/nanumsquarer.svg#nanumsquarerregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} 
+		 
+body{
+   font-size:0.75em; /* 12px=9pt=0.75em=75% */
+   font-family:"nanum-square-r","NanumGothic",굴림,Gulim,돋움,Dotum,"맑은 고딕",sans-serif;
+   line-height:1.2;
+   color:#333;   
+}
+
+input{
+	font-size:13px;
+	font-family:"NanumGothic",굴림,Gulim,돋움,Dotum,"맑은 고딕",sans-serif;
+	line-height:1.2;
+	color:#333; 
+}
+
+
+/*----header영역----*/
+
+/*header01(pc)*/
+header{width:100%; height:80px; 
+position:absolute;left:0;top:0;z-index:10000;border:0px solid red;}
+header .header01{background:#fff;border:0px solid yellow;} /*★★★★★추가됨*/
+
+header .headerD {position:relative;  width:100%; margin:0 auto; height:80px; overflow:hidden; background:url(../../images/common/bg.gif) repeat-x; border:0px solid blue;}
+header .headerD h1{float:left; margin-left:11%; margin-top:20px; border:0px solid green;}
+header .headerD .gnbD {position:absolute; top:0px; right:10px;  height:auto; overflow:hidden; border:0px solid magenta; margin-right:23%;}
+header .headerD .gnbD .gnb li {position:relative; float:left; width:121px; text-align:center;}
+header .headerD .gnbD li a.oneD{display:inline-block;font-family:'NanumGothic';width:121px; padding-top:29px; padding-bottom:36px;font-size:16px; font-weight:bold; border:0px solid green;} 
+header .headerD .gnbD li:hover a.oneD{background:url(../../images/common/navi_tri.png) no-repeat center bottom;}
+
+.gnbD li.gL1:hover, .gnbD li.gL2:hover, .gnbD li.gL3:hover, .gnbD li.gL4:hover{/*background-color:#ececec;*/}
+.gnbD li .twoD1, .gnbD li .twoD2, .gnbD li .twoD3, .gnbD li .twoD4{width:121px; overflow:hidden; height:300px; padding:19px 0 0 0;}
+.gnbD li .twoD1 a, .gnbD li .twoD2 a, .gnbD li .twoD3 a, .gnbD li .twoD4 a{display:block; height:33px; line-height:33px; text-align:left;  color:#666666; font-size:14px; letter-spacing:-0.5px;}
+.gnbD li .twoD1 a span, .gnbD li .twoD2 a span , .gnbD li .twoD3 a span, .gnbD li .twoD4 a span{display:block; padding:0 0 0 16px; height:33px;}
+
+header .headerD .gnbD li div{padding-left:14px;}
+
+
+
+
+
+header .header01 div#portal{border:0px solid magenta;float:none; position:absolute; top:27px; right:11%;}
+header div.inner .header01 div#portal ul#ordermenu{border:0px solid orange;display:inline-block;}
+
+header div.inner .header01 div#portal ul#ordermenu li{display:inline-block;border:0px solid gray;padding-top:0;padding-bottom:0;padding-right:10px;padding-left:11px;}
+
+header div.inner .header01 ul#ordermenu li a{
+	font-size:12px;
+	color:#9b9b9b;
+	font-family: 'Nanum Gothic', sans-serif;
+	border:0px solid black;
+}
+header div.inner .header01 div#portal p{border:0px solid yellow; float:right; margin-left:25px;}
+
+
+
+

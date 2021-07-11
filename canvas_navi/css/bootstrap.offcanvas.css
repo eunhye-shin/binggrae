@@ -1,0 +1,133 @@
+@media all and (max-width:1279px){
+	/*아래의 작업*/
+	#pinks{width:100%; height:auto; margin-top:120px;}
+	#pinks p{border-radius:10px; background-color:#ff7c81; padding:16px 0; text-align:center;}
+	#pinks p a{color:#fff; font-size:16px; font-weight:700;}
+	
+	#sns{overflow:hidden; margin-top:25px;}
+	#sns p{float:left; margin-right:10px;}
+	#sns p:nth-child(3){margin-right:0;}
+	
+	
+	
+  .offcanvas-stop-scrolling {
+    height: 100%;
+    overflow: hidden;}
+
+  .navbar-default .navbar-offcanvas {
+    background-color:#fff; }
+
+  .navbar-inverse .navbar-offcanvas {
+    background-color:#fff;}
+
+  .navbar-offcanvas{
+    position: fixed;
+    width: 100%;
+    max-width:200px;
+    left: -200px;
+    top: 0;
+    padding-left:20px;
+    padding-right:20px;
+    z-index: 999;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transition: all 0.15s ease-in;
+    transition: all 0.15s ease-in; }
+    .navbar-offcanvas.in {
+      box-shadow: 0 0 0 +1200px rgba(0, 0, 0, 0.5); }
+    .navbar-offcanvas.navbar-offcanvas-fade {
+      opacity: 0; }
+      .navbar-offcanvas.navbar-offcanvas-fade.in {
+        opacity: 1; }
+    .navbar-offcanvas.offcanvas-transform.in {
+      -webkit-transform: translateX(200px);
+      -ms-transform: translateX(200px);
+      transform: translateX(200px); }
+    .navbar-offcanvas.offcanvas-position.in {
+      left: 0; }
+    .navbar-offcanvas.navbar-offcanvas-right {
+      left: auto;
+      right: -200px; }
+      .navbar-offcanvas.navbar-offcanvas-right.offcanvas-transform.in {
+        -webkit-transform: translateX(-200px);
+        -ms-transform: translateX(-200px);
+        transform: translateX(-200px); }
+      .navbar-offcanvas.navbar-offcanvas-right.offcanvas-position.in {
+        left: auto;
+        right: 0; }
+    .navbar-offcanvas.dropdown.active .caret {
+      border-top: 0;
+      border-bottom: 4px solid;}
+    .navbar-offcanvas.dropdown-menu {
+      position: relative;
+      width: 100%;
+      border: inherit;
+      box-shadow: none;
+      -webkit-transition: height 0.15s ease-in;
+      transition: height 0.15s ease-in; }
+      .navbar-offcanvas.dropdown-menu.shown {
+        display: block;
+        margin-bottom:10px; }
+
+  .offcanvas-toggle {
+    display: block; }
+
+  .navbar-header {
+    width: 100%; }
+
+  .navbar-form {
+    float: none !important;
+    padding: 10px 15px;
+    margin: 8px -15px;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1); }
+    .navbar-form .form-group {
+      width: 100%;
+      margin-bottom: 5px; }
+      .navbar-form .form-group input {
+        width: 100%; }
+
+  .navbar-nav {
+    margin: 7.5px -15px;
+    float: none !important; }
+    .navbar-nav li {
+      float: none; }
+	  .navbar-nav li.dropdown{border-bottom:2px solid #f2f2f2; margin-top:25px;}
+	  .navbar-nav li.dropdown a.dropdown-toggle{font-family: 'Nanum Gothic'; font-weight:900;font-size:18px;color:#232323;}
+      .navbar-nav li a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+		font-family: 'Nanum Gothic'; font-weight:700;font-size:14px;color:#9a9a9a;}
+      .navbar-nav li.dropdown.open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none; }
+.offcanvas-toggle {
+  background-color:#fff; }
+  .offcanvas-toggle .icon-bar {
+    background:#fff;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
+  .offcanvas-toggle.is-open .icon-bar:nth-child(1) {
+    -webkit-transform: rotate(45deg) translate(5px, 4px);
+    -ms-transform: rotate(45deg) translate(5px, 4px);
+    transform: rotate(45deg) translate(5px, 4px); }
+  .offcanvas-toggle.is-open .icon-bar:nth-child(2) {
+    opacity: 0; }
+  .offcanvas-toggle.is-open .icon-bar:nth-child(3) {
+    -webkit-transform: rotate(-45deg) translate(4px, -4px);
+    -ms-transform: rotate(-45deg) translate(4px, -4px);
+    transform: rotate(-45deg) translate(4px, -4px); }
+
+/*# sourceMappingURL=bootstrap.offcanvas.css.map */
+
+
+
+

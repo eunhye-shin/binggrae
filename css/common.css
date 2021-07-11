@@ -1,0 +1,334 @@
+/*웹폰트*/
+/*빙그레 regular*/
+@font-face {
+    font-family: 'Binggrae';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*PC header*/
+
+header#tm_header{display:none;}
+
+
+
+
+
+
+/*태블릿*/
+/*header*/
+@media all and (min-width:600px) and (max-width:1279px){
+	header#pc_header{display:none;}
+	header#tm_header{display:block;
+	 background:url(../images/common/bg.gif) repeat-x;
+	 position:relative; z-index:300;}
+	
+	header#tm_header{border:0px solid yellow; height:auto; padding-bottom:0; background:none; position:absolute; top:0; left:0; width:100%;}
+	header#tm_header nav.white{background:#fff;}
+	header#tm_header div.navbar-header{width:100%; border:0px solid blue; height:80px; background:#fff;}
+	button.ximg{border:1px solid yellow; position:absolute; top:15px; right:10px;}
+	  
+	#buy{margin-top:35px; margin-bottom:8vh; overflow:hidden; border:0px solid green;}
+	#buy p{float:left; margin-right:20px; border:0px solid pink;}
+	#buy p:last-child{margin-right:0px;}
+	#buy p a{font-family: 'Nanum Gothic'; color:#9a9a9a; font-size:12px;}
+	
+	div.navbar-header p.global{border:0px solid green; position:absolute; top:25px; left:30px;}
+	
+	header#tm_header p.move{border:0px solid green; width:100%; text-align:center; padding-top:20px;}
+		
+	#pinks{width:100%; height:auto; margin-top:10vh; padding:16px 0; text-align:center;}
+	#pinks p{background-color:#ff7c81; border-radius:8px; height:45px; padding:14px 0;}
+	#pinks p a{font-family: 'Nanum Gothic'; color:#fff; font-size:16px; font-weight:700;}
+		
+	#sns{overflow:hidden; margin-top:2.4vh;}
+	#sns p{float:left; margin-right:20px;}
+	#sns p:nth-child(3){margin-right:0;}
+
+}
+
+
+
+
+
+
+/*모바일 header*/
+@media all and (max-width:599px){
+	header#pc_header{display:none;}
+	header#tm_header{display:block;
+	 background:url(../images/common/bg.gif) repeat-x;
+	 position:relative; z-index:300;}
+	
+	header#tm_header{border:0px solid yellow; height:auto; padding-bottom:0; background:none; position:absolute; top:0; left:0; width:100%;}
+	header#tm_header nav.white{background:#fff;}
+	header#tm_header div.navbar-header{width:100%; border:0px solid blue; height:80px; background:#fff;}
+	button.ximg{border:1px solid yellow; position:absolute; top:15px; right:10px;}
+	  
+	#buy{margin-top:35px; margin-bottom:8vh; overflow:hidden; border:0px solid green;}
+	#buy p{float:left; margin-right:20px; border:0px solid pink;}
+	#buy p:last-child{margin-right:0px;}
+	#buy p a{font-family: 'Nanum Gothic'; color:#9a9a9a; font-size:12px;}
+	
+	div.navbar-header p.global{border:0px solid green; position:absolute; top:25px; left:20px;}
+	
+	header#tm_header p.move{border:0px solid green; width:100%; text-align:center; padding-top:20px;}
+		
+	#pinks{width:100%; height:auto; margin-top:70px; padding:14px 0; text-align:center;}
+	#pinks p{background-color:#ff7c81; border-radius:8px; height:40px; padding:10px 0;}
+	#pinks p a{font-family: 'Nanum Gothic'; color:#fff; font-size:14px; font-weight:700;}
+		
+	#sns{overflow:hidden; margin-top:25px;}
+	#sns p{float:left; margin-right:20px;}
+	#sns p:nth-child(3){margin-right:0;}
+
+	
+}
+
+
+
+
+
+
+
+
+/*footer*/
+footer{border:0px solid yellow; width:100%; height:auto; background-color:#2d2d2d;}
+footer div.outer{width:83%; margin:0 auto; border:0px solid green;}
+footer div.outer div.inner{border:0px solid orange; width:93.5%; height:auto; overflow:hidden; margin:0 auto;}
+footer div.inner div{float:left;}
+
+
+
+/*f_box1*/
+footer div.inner div#f_box1{border:0px soild pink; width:11%;}
+footer div.inner div#f_box1 h3{
+	border:0px solid cyan;
+	padding-top:63px;
+}
+
+
+
+/*f_box2*/
+footer div.inner div#f_box2{
+	width:73%;
+	border:0px solid cyan;
+	padding-left:20%;
+}
+
+/*ul*/
+footer div.inner div#f_box2 ul{
+	border:0px solid orange;
+	overflow:hidden;
+}
+footer div.inner div#f_box2 ul li{
+	border:0px solid pink;
+	float:left;
+	padding-top:63px;
+}
+footer div.inner div#f_box2 ul li a{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:14px;
+	font-weight:700;
+	color:#e6e6e6;
+	padding-right:21px;
+	padding-left:21px;
+}
+footer div.inner div#f_box2 ul li:first-child a{padding-left:0;}
+footer div.inner div#f_box2 ul li:last-child a{margin-right:0;}
+
+
+
+/*나머지*/
+footer div.inner div#f_box2 div#whitetext{
+	width:100%;
+	padding-top:26px;
+	border:0px solid green;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:12px;
+	color:#6d6d6f;
+}
+footer div.inner div#f_box2 p{padding-bottom:14px;
+}
+footer div.inner div#f_box2 p address{
+	padding-bottom:19px;
+}
+footer div.inner div#f_box2 p#copy{padding-top:19px; padding-bottom:44px;}
+
+
+
+
+
+/*f_box3*/
+footer div.inner div#f_box3{border:0px solid magenta; width:16%; padding-top:64px; overflow:hidden;}
+/*form*/
+footer div.inner div#f_box3 div#form{
+	border:0px solid red; 
+	width:80%; height:auto;
+	border-radius:5px;
+	background:#444444;
+	float:right;
+}
+footer div.inner div#f_box3 select#familysite{
+	padding:15px;
+	width:100%;
+	
+	border:0px solid gray;
+	background:url(../images/common/arrow.png) no-repeat 95% 50%;
+	-webkit-appearance: none;
+    -moz-appearance: none; 
+    appearance: none;
+	select:-ms-expand display: none; 
+	
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:14px;
+	color:#bfbfbf;
+	font-weight:700;
+	
+}
+
+/*ul*/
+footer div.inner div#f_box3 ul{border:0px solid yellow; padding-top:26px; float:right;}
+footer div.inner div#f_box3 ul li{border:0px solid cyan; display:inline-block; padding-right:15px;}
+footer div.inner div#f_box3 ul li:last-child{padding-right:0;}
+footer div.inner div#f_box3 ul li:last-child{padding:0;}
+
+
+
+
+
+
+
+
+
+
+/*태블릿footer*/
+@media all and (min-width:600px) and (max-width:1279px){
+	footer div.outer{width:92.5%; border:0px solid green;}
+	footer div.outer div.inner{border: 0px solid orange; width:100%; height:auto; overflow:hidden;}
+
+	footer div.inner div#f_box1{display:none;}
+	
+	
+	/*f_box_2*/
+	footer div.inner div#f_box2{border:0px solid cyan; padding-left:0; width:70%;}
+	/*ul*/
+	footer div.inner div#f_box2 ul{border:0px solid lightblue;}
+	footer div.inner div#f_box2 ul li{border:0px solid pink;padding-top:45px;}
+
+
+	/*나머지*/
+	footer div.inner div#f_box2 div#whitetext{border:0px solid margenta; width:100%;}
+	
+
+
+
+	/*f_box3*/
+	footer div.inner div#f_box3{border:0px solid magenta; width:28%; padding-top:30px;  float:right;}
+	/*ul*/
+	footer div.inner div#f_box3 ul{display:none;}
+
+}
+
+
+
+
+/*모바일footer*/
+@media all and (max-width:599px){
+	footer div.outer{width:92%; border:0px solid green;}
+	footer div.outer div.inner{border: 0px solid orange; width:100%; height:auto; overflow:hidden; position:relative;}
+
+	footer div.inner div#f_box1{display:none;}
+	
+	
+	/*f_box_2*/
+	footer div.inner div#f_box2{border:0px solid cyan; padding-left:0; width:100%;}
+	/*ul*/
+	footer div.inner div#f_box2 ul{border:0px solid orange; padding-bottom:25px; text-align:center;}
+	footer div.inner div#f_box2 ul li{border:0px solid pink;padding-top:89px;}
+	footer div.inner div#f_box2 ul li:nth-child(1){display:none;}
+	footer div.inner div#f_box2 ul li:nth-child(2){display:none;}
+	footer div.inner div#f_box2 ul li a{
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size:12px;
+	font-weight:700;
+	color:#e6e6e6;
+	padding-right:2.5vw;
+	padding-left:2.5vw;
+	border:0px solid green;
+	}
+	footer div.inner div#f_box2 ul li:last-child a{padding-right:0;}
+	
+	/*나머지*/
+	footer div.inner div#f_box2 div#whitetext{border:0px solid margenta; width:100%; padding-top:0;}
+	footer div.inner div#f_box2 p#copy{padding-top:19px; padding-bottom:25px;}
+	
+
+
+	/*f_box3*/
+	footer div.inner div#f_box3{border:0px solid magenta; padding-top:25px; width:100%; position:absolute;}
+	/*ul*/
+	footer div.inner div#f_box3 ul{display:none;}
+	
+	/*form*/
+	footer div.inner div#f_box3 div#form{
+		width:100%; height:auto;
+		z-index:100; float:none;
+	}
+
+	
+}
+
+
+
+
+
+
+/*pc형 미디어쿼리*/
+/*1700대*/
+@media all and (min-width:1700px) and (max-width:1799px){
+	header div.outer{width:95%;}
+	footer div.outer{width:95%;}
+}
+/*1600-1500대*/
+@media all and (min-width:1400px) and (max-width:1699px){
+	header div.outer{width:100%;}
+	footer div.outer{width:100%;}
+}
+/*1320-1280대*/
+@media all and (min-width:1280px) and (max-width:1399px){
+	header div.outer{width:100%;}
+	footer div.outer{width:100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

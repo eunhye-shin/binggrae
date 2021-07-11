@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>빙그레</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./css/import.css">
+<!--웹폰트(나눔고딕)-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+<!--풀다운-->
+<link rel="stylesheet" type="text/css" href="./FullDown_Menu/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="./FullDown_Menu/css/common.css" />
+<!--FullDown Menu js-->
+<script type="text/javascript" src="./FullDown_Menu/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/guide.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/hover.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/TweenMax.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/TweenLite.js"></script>
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="./swiper-4.5.3/dist/css/swiper.css">
+
+
+</head>
+<body>
+
+<header><!-- header-->
+		<div class="inner">
+		<div class="header01">
+			
+			<div class="headerD"><!-- headerD-->	
+			<!--logo-->
+			<h1><a href="index.html"><img src="./images/common/logo.png" /></a></h1>
+			
+			<!--gnb-->
+				<div class="gnbD">
+					<ul class="gnb">
+						<li class="gL1">
+							<a href="./sub01.html" class="oneD" href="./sub01.html">회사소개</a>
+							<div class="twoD1">
+								<a href="public.html"><span>빙그레소개</span></a>
+								<a href="public.html"><span>글로벌빙그레</span></a>
+								<a href="public.html"><span>투자정보</span></a>
+								<a href="public.html"><span>인재채용</span></a>									
+							</div>
+						</li> 
+						
+						<li class="gL2">
+							<a href="./sub02.html" class="oneD">제품소개</a>
+							<div class="twoD2">
+								<a href="news.html"><span>아이스크림</span></a>
+								<a href="news.html"><span>우유 / 치즈</span></a>
+								<a href="news.html"><span>발효유</span></a>
+								<a href="news.html"><span>커피 / 음료</span></a>
+								<a href="news.html"><span>스낵 / 디저트</span></a>
+							</div>
+						</li>  
+					
+						<li class="gL3">
+							<a href="./sub03.html" class="oneD">홍보센터</a>
+							<div class="twoD3">
+								<a href="technology.html"><span>빙그레CF</span></a>
+								<a href="technology.html"><span>보도자료</span></a>
+								<a href="technology.html"><span>사회공헌</span></a>			
+							</div>
+						</li>  
+					
+						<li class="gL4">
+							<a href="./sub04.html" class="oneD">소통해요</a>
+							<div class="twoD4">
+								<a href="business.html"><span>고객센터</span></a>
+								<a href="business.html"><span>공지사항</span></a>
+							</div>	
+						</li>  
+					</ul>
+				</div><!--// gnbD -->
+			</div><!--// headerD -->
+			
+			<div id="portal">
+					<ul id="ordermenu">
+						<li><a href="#">구매 포털사이트</a></li>
+						<li><a href="#">인재채용</a></li>
+					</ul><!--구매포털사이트/인재채용-->
+				
+					<p><a href="#"><img src="./images/common/global.gif" alt="global"></a></p>
+				</div><!--portal종료-->
+			
+		</div><!--//header01-->
+	</div><!--//inner-->
+</header>
+  
+<section id="visual">
+	  <!-- Swiper -->
+	  <div class="swiper-container">
+		<div class="swiper-wrapper">
+		
+		  <div class="swiper-slide bg01">
+			<div class="inner">
+				<div id="bigtext">
+					<p>요플레에 단백질을 꽉 채웠다!</p>
+					<p>18g단백질</p>
+					<p>요플레프로틴</p>
+				</div><!--bigtext글씨 종료-->
+			
+			
+				<!--태블릿형 bigtext, 자세히보기-->
+				<div id="t_bigtext">
+					<p>18g단백질, <span>요플레프로틴</span></p>
+					<p>요플레에 단백질을 꽉 채웠다!</p>
+					<p class="t-moreview"><a href="#"><img src="./images/main/t_visual_moreview.png" alt="자세히보기"></a></p>
+				</div><!--t_bigtext종료-->
+			
+				
+				<ul id="tag">
+					<li><img src="./images/main/tag1.gif" alt="장건강"></li>
+					<li><img src="./images/main/tag2.gif" alt="프로바이오틱스"></li>
+					<li><img src="./images/main/tag3.gif" alt="단백질"></li>
+				</ul>
+			
+				<p class="moreview"><a href="#"><img src="./images/main/moreview.gif" alt="자세히보기"></a></p>
+
+				<!--모바일 자세히보기-->
+				<p class="m_v_moreview"><a href="#"><img src="./images/main/m_moreview.png" alt="자세히보기"></a></p>
+				
+			</div><!--inner-->
+		  </div><!--swiper-slide bg01종료-->
+		  
+		  <div class="swiper-slide bg02">Slide 2</div>
+		  <div class="swiper-slide bg03">Slide 3</div>
+		  <div class="swiper-slide bg04">Slide 4</div>
+		  <div class="swiper-slide bg05">Slide 5</div>
+		</div><!--//swiper-wrapper-->
+
+		<!-- Add Pagination -->
+		<div class="swiper-pagination"></div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	  </div><!--//swiper-container-->
+
+	  <!-- Swiper JS -->
+	  <script src="./swiper-4.5.3/dist/js/swiper.min.js"></script>
+
+	  <!-- Initialize Swiper -->
+	  <script>
+		var swiper = new Swiper('.swiper-container', {
+		  pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+			//type: 'fraction',
+		  },
+		 //autoplay: {
+		   //delay: 3000, /*자동으로 슬라이드가 진행될때 지연 속도*/
+		  //  disableOnInteraction: false,
+		  //},
+
+		});
+	  </script>
+</section><!--visual종료-->
+
+
+<section id="contents1">
+	<div class="inner">
+		<dl class="c1-text"> 
+			<dt>건강과 행복을 함께 나누는<br>밝은 미소의 메신저</dt>
+			<dt>빙그레</dt>
+			<dt>빙그레는 국민의 건강과 행복을 위해 최상의<br>고객가치를 만들어 내고 있습니다.</dt>
+			<dd>1967년, 설립된 빙그레는 50년이 넘는 시간동안<br>국민에게 사랑받아왔습니다.</dd>
+			<dd>대한민국을 넘어 글로벌 리딩 기업으로<br>성장하고 있습니다.</dd>
+		</dl>
+		
+		<!--태블릿 contents1 text-->
+		<dl class="t-c1-text">
+			<dt>밝은 미소의 메신저<br><span>빙그레</span></dt>
+			<dt>빙그레는 국민의 건강과 행복을 위해 최상의<br>고객가치를 만들어 내고 있습니다.</dt>
+			<dd>1967년, 설립된 빙그레는 50년이 넘는 시간동안<br>국민에게 사랑받아왔습니다.</dd>
+			<dd>대한민국을 넘어 글로벌 리딩 기업으로<br>성장하고 있습니다.</dd>
+		</dl>
+
+	<!--모바일 contents1 사진-->
+		<div id="m_c1_p"></div>
+		<p id="m_c1_circle"><img src="./images/main/m_c1_circle.png" alt="원"></p>
+	</div><!--inner종료-->
+</section><!--contents1종료-->
+
+
+
+
+<section id="contents2">
+	<div class="inner">
+		<div id="box01">
+			<h3>생생한 맛을 <span>즐기다</span></h3>
+			<p>전 세대가 함께 즐기는 빙그레의 생생한 이야기를 만나보세요.</p>
+		</div><!--box01 종료-->
+		
+		<!--태블릿 box02-->
+		<div id="t_box02">
+			<div id="t-box02_img">
+				<ul id="t-3-img">
+					<li><img src="./images/main/c2_vivacity.png" alt="비바시티"></li>
+					<li><img src="./images/main/c2_banana.png" alt="바나나세탁소"></li>
+					<li><img src="./images/main/c2_product.png" alt="굿즈"></li>
+					<!--모바일 굿즈-->
+					<li><img src="./images/main/m_c2_goods.png" alt="굿즈"></li>
+				</ul>
+				
+				<dl id="t-gray">
+					<dt> #단지세탁소</dt>
+					<dd> 친환경 캠페인 ‘지구를 지켜 바나나’ 오프라인 활동인<br> ‘단지 세탁소’</dd>
+				</dl><!--t-gray종료-->
+			</div><!--box02_img종료-->
+		</div><!--t_box02종료-->
+		
+		<div id="box02">
+			<div id="box02_img">
+				<dl>
+					<dt><img src="./images/main/content2_1.png" alt="요술단지"></dt>
+					<dd>#요술단지</dd>
+				</dl>
+				<dl>
+					<dt><img src="./images/main/content2_2.png" alt="비바시티"></dt>
+					<dd>#비바시티</dd>
+				</dl>
+				<dl>
+					<dt><img src="./images/main/content2_3.png" alt="단지세탁소"></dt>
+					<dd>#단지세탁소</dd>
+				</dl>
+				<dl>
+					<dt><img src="./images/main/content2_4.png" alt="빙그레굿즈"></dt>
+					<dd>#빙그레굿즈</dd>
+				</dl>
+				<dl>
+					<dt><img src="./images/main/content2_5.png" alt="심플리"></dt>
+					<dd>#심플리</dd>
+				</dl>
+			</div><!--box02_img 종료-->
+		
+			<dl id="gray">
+				<dt> #단지세탁소</dt>
+				<dd> 친환경 캠페인 ‘지구를 지켜 바나나’ 오프라인 활동인<br> ‘단지 세탁소’</dd>
+			</dl><!--gray종료-->
+			
+		</div><!--box02종료-->
+	</div><!--inner종료-->
+</section><!--contents2종료-->
+
+
+<section id="contents3">
+	<div class="inner">
+		<div id="c3_box1">
+			<div class="group">
+				<h3 class="c3-h3">맛의 기준을<br><span>만들다</span></h3>
+				
+				<!--태블릿-->
+				<h3 class="t-c3-h3">맛의 기준을 <span>만들다</span></h3>
+				
+				<p class="first">우유/가공유<a href="#"><img src="./images/main/c3_arrow1.png" alt="빨간화살표"></a></p>
+				
+				<p class="last">
+				50년의 정직함을 담은 빙그레의 맛으로<br>또 다른 50년을 만들어 갑니다.
+				</p>
+				
+				<ul id="c3-botton">
+					<li><a href="#" class="active"><span>  </span></a></li>
+					<li><a href="#"><span> </span></a></li>
+					<li><a href="#"><span> </span></a></li>
+					<li><a href="#"><span> </span></a></li>
+					<li><a href="#"><span> </span></a></li>
+				</ul>
+			</div><!--group종료-->
+		</div><!--c3_box1종료-->
+		
+		<div id="c3_box2">
+			<p><img src="./images/main/c3_banana_milk.png" alt="바나나맛우유"></p>
+		</div><!--c3_box2종료-->
+		
+		
+		
+		<!--태블릿형 버튼-->
+		<ul id="t-c3-b">
+			<li><a href="#" class="red">우유 / 치즈</a></li>
+			<li><a href="#">아이스크림</a></li>
+			<li><a href="#">발효유</a></li>
+			<li><a href="#">커피 / 음료</a></li>
+			<li><a href="#">과자 / 디저트</a></li>
+		</ul>
+		
+		
+		<div id="c3_box3">
+			<p><a href="#"><img src="./images/main/c3_arrow2.gif" alt="검은화살표"></a></p>
+			<p><img src="./images/main/c3_blackbean_mlik.png" alt="검은콩두유">
+		</div><!--c3_box3종료-->
+	</div><!--inner종료-->
+</section><!--contents3-->
+
+
+
+<section id="contents4">
+	<div class="inner">
+		<section id="contents4_1">
+			<div class="vivacity">
+				<h4>taste, function, trust</h4>
+				<h3>일상에 건강을 더하다 <span>빙그레 tft몰</span></h3>
+			</div><!--vivacity종료-->
+		</section><!--contents4_1종료-->
+		
+		
+		<section id="contents4_2">
+			<h3>Binggrae  SNS</h3>
+			
+			<div id="contents4_2_img">
+				<ul id="contents4_2_1">
+					<li><a href="#"><img src="./images/main/c5_1.png" alt="1"></a></li>
+					<li><a href="#"><img src="./images/main/c5_2.png" alt="2"></a></li>
+					<li><a href="#"><img src="./images/main/c5_3.png" alt="3"></a></li>
+					<li><a href="#"><img src="./images/main/c5_4.png" alt="4"></a></li>
+					<li><a href="#"><img src="./images/main/c5_5.png" alt="5"></a></li>
+				</ul><!--contents4_2_1종료>-->
+				
+				<ul id="contents4_2_2">
+					<li><a href="#"><img src="./images/main/c5_6.png" alt="6"></a></li>
+					<li><a href="#"><img src="./images/main/c5_7.png" alt="7"></a></li>
+					<li><a href="#"><img src="./images/main/c5_8.png" alt="8"></a></li>
+					<li><a href="#"><img src="./images/main/c5_9.png" alt="9"></a></li>
+					<li><a href="#"><img src="./images/main/c5_10.png" alt="10"></a></li>
+				</ul><!--contents4_2_2종료-->
+			</div><!--contents4_2_img종료-->
+		</section><!--contents4_2종료-->
+		
+	</div><!--inner종료-->
+</section><!--contents4종료-->
+
+
+<!--태블릿 tft몰-->
+<section id="t_contents4">
+	<div class="inner">
+		<div id="t_vivacity">
+			<h3>일상에 건강을 더하다<br><span>빙그레 tft몰</span></h3>
+			<h4>taste, function, trust</h4>
+			<p><a href="#"><img src="./images/main/t_c4_button.png" alt="자세히보기"</a></p>
+		</div>
+	</div><!--inner-->
+</section><!--t_contents4-->
+
+
+<section id="t_contents5">
+	<div class="inner">
+		<h3>Binggrae  SNS</h3>
+		
+		<div id="t_contents5_img">
+				<ul id="t_img_insta">
+					<li><a href="#"><img src="./images/main/t_c5_1.png" alt="1"></a></li>
+					<li><a href="#"><img src="./images/main/t_c5_2.png" alt="2"></a></li>
+					<li><a href="#"><img src="./images/main/t_c5_3.png" alt="3"></a></li>
+					<li><a href="#"><img src="./images/main/t_c5_4.png" alt="4"></a></li>
+					<li><a href="#"><img src="./images/main/t_c5_5.png" alt="5"></a></li>
+					<li><a href="#"><img src="./images/main/t_c5_6.png" alt="6"></a></li>
+					<li><a href="#"><img src="./images/main/t_c5_7.png" alt="7"></a></li>
+					<li><a href="#"><img src="./images/main/t_c5_8.png" alt="8"></a></li>
+					<li><a href="#"><img src="./images/main/t_c5_9.png" alt="9"></a></li>
+				</ul><!--t_img_insta종료-->
+			</div><!--t_contents5_img종료-->
+	</div><!--inner종료-->
+</section><!--t_contents5종료-->
+
+
+
+<!--모바일 컨텐츠 5-->
+<section id="m_contents5">
+	<div class="inner">
+		<h3>Binggrae  SNS</h3>
+		
+		<div id="m_contents5_img">
+				<ul id="m_img_insta">
+					<li><a href="#"><img src="./images/main/m_c5_1.png" alt="1"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_2.png" alt="2"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_3.png" alt="3"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_4.png" alt="4"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_5.png" alt="5"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_6.png" alt="6"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_7.png" alt="7"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_8.png" alt="8"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_9.png" alt="9"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_10.png" alt="10"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_11.png" alt="11"></a></li>
+					<li><a href="#"><img src="./images/main/m_c5_12.png" alt="12"></a></li>
+				</ul><!--t_img_insta종료-->
+			</div><!--t_contents5_img종료-->
+	</div><!--inner종료-->
+</section><!--m_contents5종료-->
+
+			
+
+
+
+
+<footer>
+	<div class="outer">
+		<div class="inner">
+			<div id="f_box1">
+				<h3><a href="#"><img src="./images/common/f_logo.png" alt="en_logo"></a></h3>
+			</div><!--f_box1종료-->
+			
+			<div id="f_box2">
+				<ul>
+					<li><a href="#">오시는 길</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">고객센터</a></li>
+					<li><a href="#">1:1 이메일 문의</a></li>
+				</ul>
+				
+				<div id="whitetext">
+					<p>080-022-0056 (이용시간 평일 09:00~17:30)</p>
+					<address>경기도 남양주시 다산동 4344-3 / 경기도 남양주시 다산순환로 45(다산동)</address>
+					<p id="copy">&copy; Binggrae all rights reserved.</p>
+				</div><!--whitetext종료-->
+			</div><!--f_box2종료-->
+			
+			<div id="f_box3">
+				<div id="form">
+					<select id="familysite">
+						<option value="youtube">Family site</option>
+						<option value="youtube">빙그레기업유튜브</option>
+						<option value="insta">빙그레기업인스타그램</option>
+						<option value="tft">tft몰</option>
+					</select>
+				</div><!--form종료-->
+			
+				<ul>
+					<li><a href="#"><img src="./images/common/insta.png" alt="insta"></a></li>
+					<li><a href="#"><img src="./images/common/youtube.png" alt="insta"></a></li>
+					<li><a href="#"><img src="./images/common/facebook.png" alt="insta"></a></li>
+				</ul>
+			</div><!--f_box3종료-->
+		</div><!--inner종료-->
+	</div><!--outer종료-->
+</footer><!--footer종료-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>빙그레</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" type="text/css" href="./css/import.css">
+<!--웹폰트(나눔고딕)-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+<!--header스크롤-->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/bootstrap.offcanvas.css"/>
+
+<!--//header스크롤 스크립트-->
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="./js/bootstrap.offcanvas.js"></script>
+
+<!--풀다운-->
+<link rel="stylesheet" type="text/css" href="./FullDown_Menu/css/reset.css" />
+<link rel="stylesheet" type="text/css" href="./FullDown_Menu/css/common.css" />
+<script type="text/javascript" src="./FullDown_Menu/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/guide.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/hover.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/TweenMax.js"></script>
+<script type="text/javascript" src="./FullDown_Menu/js/TweenLite.js"></script>
+
+<!-- Link Swiper's CSS -->
+ <link rel="stylesheet" href="./swiper-Swiper4/dist/css/swiper.css">
+
+</head>
+
+
+
+<body>
+<header id="pc_header"><!-- header-->
+	<div class="inner">
+		<div class="header01">
+			
+			<div class="headerD"><!-- headerD-->	
+			<!--logo-->
+			<h1><a href="index.html"><img src="./images/common/logo.png" /></a></h1>
+			
+			<!--gnb-->
+				<div class="gnbD">
+					<ul class="gnb">
+						<li class="gL1 uta">
+							<a href="sub01.html" class="oneD">회사소개</a>
+							<div class="twoD1 waltz">
+								<a href="sub01.html"><span>빙그레소개</span></a>
+								<a href="sub01.html"><span>글로벌빙그레</span></a>
+								<a href="sub01.html"><span>투자정보</span></a>
+								<a href="sub01.html"><span>인재채용</span></a>									
+							</div>
+						</li> 
+						
+						<li class="gL2 uta">
+							<a href="sub02.html" class="oneD">제품소개</a>
+							<div class="twoD2 waltz">
+								<a href="sub02.html"><span>아이스크림</span></a>
+								<a href="sub02.html"><span>우유 / 치즈</span></a>
+								<a href="sub02.html"><span>발효유</span></a>
+								<a href="sub02.html"><span>커피 / 음료</span></a>
+								<a href="sub02.html"><span>스낵 / 디저트</span></a>
+							</div>
+						</li>  
+					
+						<li class="gL3 uta">
+							<a href="sub04.html" class="oneD">홍보센터</a>
+							<div class="twoD3 waltz">
+								<a href="sub04.html"><span>빙그레CF</span></a>
+								<a href="sub04.html"><span>보도자료</span></a>
+								<a href="sub04.html"><span>사회공헌</span></a>			
+							</div>
+						</li>  
+					
+						<li class="gL4 uta">
+							<a href="sub05.html" class="oneD">소통해요</a>
+							<div class="twoD4 waltz">
+								<a href="sub05.html"><span>고객센터</span></a>
+								<a href="sub05.html"><span>공지사항</span></a>
+							</div>	
+						</li>  
+					</ul>
+				</div><!--// gnbD -->
+			</div><!--// headerD -->
+			
+			<div id="portal">
+					<ul id="ordermenu">
+						<li><a href="https://srm.bing.co.kr/">구매 포털사이트</a></li>
+						<li><a href="https://recruit.bing.co.kr/app/web/main/index_new.jsp">인재채용</a></li>
+					</ul><!--구매포털사이트/인재채용-->
+				
+					<p><a href="#"><img src="./images/common/global.gif" alt="global"></a></p>
+				</div><!--portal종료-->
+			
+		</div><!--//header01-->
+	</div><!--//inner-->
+</header><!--//pc_header-->
+
+
+
+
+
+<header id="tm_header">
+        <nav class="navbar navbar-default white" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+					<p class="global"><a href="#"><img src="./images/common/t_global.gif"></a></p>
+					
+                    <p class="move"><a href="#"><img src="./images/common/t_logo.png"></a><p>
+					
+                    <button type="button" class="navbar-toggle offcanvas-toggle pull-right ximg" data-toggle="offcanvas" data-target="#js-bootstrap-offcanvas" >
+                        <span class="sr-only">Toggle navigation</span>
+                        <span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </span>
+                    </button>
+                </div><!--//navbar-header-->
+				
+                 <div class="navbar-offcanvas navbar-offcanvas-touch" id="js-bootstrap-offcanvas">
+				 
+					<div id="buy">
+						<p><a href="https://srm.bing.co.kr/">포털사이트</a></p>
+						<p><a href="https://recruit.bing.co.kr/app/web/main/index_new.jsp">인재채용</a></p>
+					</div><!--//buy-->
+					
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">회사소개 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+                                <li><a href="sub01.html">빙그레소개</a></li>
+                                <li><a href="sub01.html">글로벌빙그레</a></li>
+                                <li><a href="sub01.html">투자정보</a></li>
+                                <li></li>
+                                <li><a href="sub01.html">윤리경영</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+						
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">제품소개 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+                                <li><a href="sub02.html">아이스크림</a></li>
+                                <li><a href="sub02.html">우유 / 치즈</a></li>
+                                <li><a href="sub02.html">발효유</a></li>
+                                <li></li>
+                                <li><a href="sub02.html">커피 / 음료</a></li>
+								<li><a href="sub02.html">스낵 / 디저트</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+						
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">홍보센터 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+                                <li><a href="sub04.html">CF</a></li>
+                                <li><a href="sub04.html">보도자료</a></li>
+                                <li><a href="sub04.html">사회공헌</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+						
+						<li class="dropdown">
+                            <a href="#" class="dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">고객센터 <span class="caret"></span></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2" role="menu">
+                                <li><a href="sub05.html">고객센터</a></li>
+                                <li><a href="sub05.html">공지사항</a></li>
+                            </ul>
+                        </li><!--//dropdown-->
+						
+                    </ul><!--//nav navbar-nav-->
+					
+					
+					<div id="pinks">
+						<p><a href="#">Tft몰 바로가기</a></p>
+						<p><a href="#">끌레도르 구독하기</a></p>
+					</div><!--//pinks-->
+					
+					<div id="sns">
+						<p><a href="#"><img src="./images/sub03/face.gif"></a></p>
+						<p><a href="#"><img src="./images/sub03/you.gif"></a></p>
+						<p><a href="#"><img src="./images/sub03/insta.gif"></a></p>
+					</div><!--//sns-->
+                </div><!--//navbar-offcanvas-->
+            </div><!--//container-fluid-->
+        </nav>
+    </header><!--//tm_header-->
+
+
+
+
+<section id="visual">
+	  <!-- Swiper -->
+	  <div class="swiper-container">
+		<div class="swiper-wrapper">
+		
+		  <div class="swiper-slide bg01">
+			<div class="inner">
+				<div class="t_berry"><img src="./images/main/straw.png" alt="복숭아"></div>
+					<div class="Pctitle">
+						<h3>Smile and happy.</br>Global company Binggrae</h3>
+						<p>웃음과 행복, 세계적인 기업 빙그레</p>
+						<p><a><img src="./images/main/v_read.png" alt="read more"></a></p>
+					</div><!--//Pctitle-->
+			</div><!--//inner-->
+		  </div><!--swiper-slide bg01종료-->
+		  
+		  <div class="swiper-slide bg02">
+			<div class="inner">
+				<div class="t_berry"><img src="./images/main/viva.png" alt="딸기"></div>
+					<div class="Pctitle">
+						<h3>Taste Fuction Trust.<br>Focuse your health </h3>
+						<p>일상 속 건강브랜드 빙그레 tft몰</p>
+						<p><a><img src="./images/main/v_read.png" alt="read more"></a></p>
+					</div><!--//Pctitle-->
+				</div><!--//inner-->
+		  </div>
+		</div><!--//swiper-wrapper-->
+
+		<!-- Add Pagination -->
+		<div class="swiper-pagination visual_p"></div>
+		<!-- Add Arrows -->
+		<div class="swiper-button-next"></div>
+		<div class="swiper-button-prev"></div>
+	  </div><!--//swiper-container-->
+	  
+	  
+
+	  <!-- Swiper JS -->
+	  <script src="./swiper-Swiper4/dist/js/swiper.min.js"></script>
+
+	  <!-- Initialize Swiper -->
+	  <script>
+		var swiper = new Swiper('.swiper-container', {
+		  pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		  },
+		 autoplay: {
+		   delay: 6000, /*자동으로 슬라이드가 진행될때 지연 속도*/
+		  disableOnInteraction: false,
+		 },
+		 navigation: {
+           nextEl: '.swiper-button-next',
+           prevEl: '.swiper-button-prev',
+         },
+		});
+	  </script>
+</section><!--visual종료-->
+
+
+
+
+<section id="contents1">
+	<div class="inner">
+		<div class="Pcmini_t">
+			<h3>Our Promise</h3>
+			<p><img src="./images/main/t_line.gif"></p>
+			<p>모두와 공존해 지속가능한 성장을 추구하는 빙그레기업</p>
+		</div><!--Pcmini_t-->
+		
+		<div id="p_c1_box">
+			<dl>
+				<dt><img src="./images/main/p_c1_1.png"></dt>
+				<dd>가치창출</dd>
+				<dd>고객과 파트너와 함께 새로운 가치를 만들어 갑니다.</dd>
+			</dl>
+			<dl>
+				<dt><img src="./images/main/p_c1_2.png"></dt>
+				<dd>안전제일</dd>
+				<dd>안전하고 건강한 식품을 만듭니다.</dd>
+			</dl>
+			<dl>
+				<dt><img src="./images/main/p_c1_3.png"></dt>
+				<dd>1등주의</dd>
+				<dd>최고의 품질과 최고의 맛으로나아갑니다.</dd>
+			</dl>
+			<dl>
+				<dt><img src="./images/main/p_c1_4.png"></dt>
+				<dd>윤리경영</dd>
+				<dd>윤리와 도덕, 공정하고투명한 경쟁을 지향합니다.</dd>
+			</dl>
+		</div><!--//p_c1_box-->
+		
+	</div><!--//inner-->
+</section><!--//contents1-->
+
+
+
+<section id="contents2">
+	<div class="inner">
+		<div class="Pcmini_t">
+			<h3>About</h3>
+			<p><img src="./images/main/t_line.gif"></p>
+			<p>국민과 함께해온 기업, 빙그레</p>
+		</div><!--Pcmini_t-->
+		
+		<div id="p_c2_img">
+			<img src="./images/main/p_c2_1.png" alt="웃음">
+		</div>
+		
+		<div id="p_c2_text">
+			<p><img src="./images/main/c2_imo.png"></p>
+			<h3>건강과 행복을 함께 나누는<br>밝은 미소의 메신저 빙그레</h3>
+			<p>빙그레는 국민의 건강과 행복을 위해 최상의 고객가치를 만들어 내고 있습니다.<br>1937년, 설립된 빙그레는 50년이 넘는 시간동안 국민에게 사랑받아왔습니다.<br>대한민국을 넘어 글로벌 리딩 기업으로 성장하고 있습니다.</p>
+			<p><a href="#"><img src="./images/main/c2_read.png"></a></p>
+			<!--태블릿-->
+			<p><a href="#"><img src="./images/main/t_c2_read.png"></a></p>
+			<!--모바일-->
+			<p><a href="#"><img src="./images/main/m_c2_r.png"></a></p>
+		</div>
+		
+		<!--태블릿-->
+		<div id="p_c2_t_img">
+			<img src="./images/main/t_p_c2_1.png">
+		</div>
+		
+		<!--모바일-->
+		<div id="m_c2_img"> </div>
+	</div><!--//inner-->
+</section><!--//contents2-->
+
+
+
+<section id="contents3">
+	<div class="inner">
+		<div class="Pcmini_t">
+			<h3>Product</h3>
+			<p><img src="./images/main/t_line.gif"></p>
+			<p>빙그레의 자랑스러운 제품을 소개합니다</p>
+		</div><!--Pcmini_t-->
+		
+		<div id="p_c3_text">
+			<h4>맛의 기준을 만들다</h4>
+			<p>50년의 정직함을 담은 빙그레의 맛으로<br>또다른 50년을 만들어 갑니다.</p>
+			<p><a href="#"><img src="./images/main/c3_v.png"></a></p>
+			<p><a href="#"><img src="./images/main/t_c3_v.png"></a></p>
+			<p><a href="#"><img src="./images/main/m_c3_v.png"></a></p>
+		</div><!--//p_c3_text-->
+		
+		<div id="p_c3_img">
+			<div class="swiper-container1">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="./images/main/c3_1.png"></div>
+					<div class="swiper-slide"><img src="./images/main/c3_2.png"></div>
+					<div class="swiper-slide"><img src="./images/main/c3_3.png"></div>
+					<div class="swiper-slide"><img src="./images/main/c3_4.png"></div>
+					<div class="swiper-slide"><img src="./images/main/c3_5.png"></div>
+					<div class="swiper-slide"><img src="./images/main/c3_6.png"></div>
+				</div><!--//swiper-wrapper-->
+				
+				<!-- Add Pagination -->
+				<div class="swiper-pagination1"></div>
+				
+				<!-- Add Arrows -->
+				<div class="circlearrow">
+				  <div class="swiper-button-next1"></div>
+				  <div class="swiper-button-prev1"></div>
+				</div>
+			</div><!--//swiper-container-->
+			
+			
+			<script>
+			var swiper = new Swiper('.swiper-container1', {
+			  slidesPerView: 3,
+			  spaceBetween: 25,
+			  // init: false,
+			  pagination: {
+				el: '.swiper-pagination1',
+				clickable: true,
+			  },
+			  breakpoints: {
+				1279: {
+				  slidesPerView: 3,
+				  spaceBetween: 20,
+				},
+				599: {
+				  slidesPerView: 1,
+				  spaceBetween: 10,
+				}
+			  },
+			  navigation: {
+              nextEl: '.swiper-button-next1',
+              prevEl: '.swiper-button-prev1',
+              },
+			});
+			</script>
+	</div><!--//inner-->
+</section><!--//contents3-->
+
+
+
+<section id="contents4">
+		<div class="Pcmini_t">
+			<h3>What's new</h3>
+			<p><img src="./images/main/t_line.gif"></p>
+			<p>전 세대가 함께 즐기는 빙그레의 생생한 이야기를 만나보세요</p>
+		</div><!--Pcmini_t-->
+		
+		<div id="c4_news">
+			<div class="swiper-container2">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="inner">
+							<dl>
+							  <dt><img src="./images/main/c4_1.png"></dt>
+							   <dd>
+								 <p>[비즈니스]</p>
+								 <p>바나나맛우유의 위로 마케팅 적중, 요술단지 패키지 에디션 선봬</p>
+								 <p>2021.02.01</p>
+							   </dd>
+							 </dl>
+							<dl>
+							 <dt><img src="./images/main/c4_2.png"></dt>
+							  <dd>
+								<p class="coral">[신제품]</p>
+								<p>빙그레 요플레 밀(meal) 호박고구마&사과 출시</p>
+								<p>2020.11.18</p>
+							 </dd>
+							</dl>
+							<dl>
+							  <dt><img src="./images/main/c4_3.png"></dt>
+								<dd>
+								  <p>[비즈니스]</p>
+								  <p>빙그레 바나나맛우유, ‘요술단지’로 변신해 응원메시지 전달</p>
+								  <p>2020.11.18</p>
+							  </dd>
+							</dl>
+						</div><!--//inner-->
+					</div><!--//swiper-slide-->
+
+					<div class="swiper-slide">
+						<div class="inner">
+							<dl>
+							  <dt><img src="./images/main/c4_4.png"></dt>
+								<dd>
+								  <p>비즈니스]</p>
+								  <p>빙그레 친환경 컨셉 커피 ‘아카페라 심플리’ 판매 100만개 돌파</p>
+								  <p>2021.1.26</p>
+							  </dd>
+							</dl>
+							<dl>
+							  <dt><img src="./images/main/c4_5.png"></dt>
+								<dd>
+								  <p class="coral">[신제품]</p>
+								  <p>빙그레 ‘핫붕어 미니싸만코’ 2종 출시 돌파</p>
+								  <p>2020.12.01</p>
+							  </dd>
+							</dl>
+							<dl>
+							  <dt><img src="./images/main/c4_6.png"></dt>
+								<dd>
+								  <p>[비즈니스]</p>
+								  <p>빙그레 건강기능식품 브랜드 비바시티, 위메프에서 라이브 커머스 진행</p>
+								  <p>2021.01.07</p>
+							  </dd>
+							</dl>
+						</div><!--//inner-->
+					</div><!--//swiper-slide-->
+					
+				</div><!--//swiper-wrapper-->
+				
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div><!--//swiper-container2-->
+			
+			
+			<div class="swiper-container3">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="inner">
+						  <dl>
+							  <dt><img src="./images/main/c4_1.png"></dt>
+							   <dd>
+								 <p>[비즈니스]</p>
+								 <p>바나나맛우유의 위로 마케팅 적중, 요술단지 패키지 에디션 선봬</p>
+								 <p>2021.02.01</p>
+							   </dd>
+							 </dl>
+						   </div>
+						</div>
+						<div class="swiper-slide">
+						  <div class="inner">
+							<dl>
+							 <dt><img src="./images/main/c4_2.png"></dt>
+							  <dd>
+								<p class="coral">[신제품]</p>
+								<p>빙그레 요플레 밀(meal) 호박고구마&사과 출시</p>
+								<p>2020.11.18</p>
+							 </dd>
+							</dl>
+						  </div>
+						</div>
+						<div class="swiper-slide">
+						  <div class="inner">
+							<dl>
+							  <dt><img src="./images/main/c4_3.png"></dt>
+								<dd>
+								  <p>[비즈니스]</p>
+								  <p>빙그레 바나나맛우유, ‘요술단지’로 변신해 응원메시지 전달</p>
+								  <p>2020.11.18</p>
+							  </dd>
+							</dl>
+						  </div>
+					    </div>
+					<div class="swiper-slide">
+						<div class="inner">
+						   <dl>
+							  <dt><img src="./images/main/c4_4.png"></dt>
+								<dd>
+								  <p>비즈니스]</p>
+								  <p>빙그레 친환경 컨셉 커피 ‘아카페라 심플리’ 판매 100만개 돌파</p>
+								  <p>2021.1.26</p>
+							  </dd>
+							</dl>
+						  </div>
+						</div>
+						<div class="swiper-slide">
+						  <div class="inner">
+							<dl>
+							  <dt><img src="./images/main/c4_5.png"></dt>
+								<dd>
+								  <p class="coral">[신제품]</p>
+								  <p>빙그레 ‘핫붕어 미니싸만코’ 2종 출시 돌파</p>
+								  <p>2020.12.01</p>
+							  </dd>
+							</dl>
+						  </div>
+						</div>
+						<div class="swiper-slide">
+						  <div class="inner">
+							<dl>
+							  <dt><img src="./images/main/c4_6.png"></dt>
+								<dd>
+								  <p>[비즈니스]</p>
+								  <p>빙그레 건강기능식품 브랜드 비바시티, 위메프에서 라이브 커머스 진행</p>
+								  <p>2021.01.07</p>
+							  </dd>
+							</dl>
+						</div>
+					</div><!--//swiper-slide-->
+					
+				</div><!--//swiper-wrapper-->
+				
+				<!-- Add Arrows -->
+				<div class="swiper-button-next"></div>
+				<div class="swiper-button-prev"></div>
+			</div><!--//swiper-container3-->
+			
+			
+			
+			
+			<script>
+			var swiper = new Swiper('.swiper-container2', {
+			  navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+              },
+			  autoplay: {
+			  delay:4000, /*자동으로 슬라이드가 진행될때 지연 속도*/
+		 },
+			});
+			</script>
+			<script>
+			var swiper = new Swiper('.swiper-container3', {
+			  navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+              },
+			  autoplay: {
+			  delay:4000, /*자동으로 슬라이드가 진행될때 지연 속도*/
+		 },
+			});
+			</script>
+		
+		</div><!--//c4_news-->
+</section><!--//contents4-->
+
+
+
+<section id="contents5">
+	<div class="inner">
+		<div class="Pcmini_t">
+			<h3>Binggrae sns</h3>
+			<p><img src="./images/main/t_line.gif"></p>
+			<p>빙그레의 스페셜한 스토리! 지금 확인해보세요</p>
+		</div><!--Pcmini_t-->
+		
+		<div id="square">
+			<p><img src="./images/main/c5_1.png"></p>
+			<p><img src="./images/main/c5_2.png"></p>
+			<p><img src="./images/main/c5_3.png"></p>
+			<p><img src="./images/main/c5_4.png"></p>
+			<p><img src="./images/main/c5_5.png"></p>
+			<p><img src="./images/main/c5_6.png"></p>
+			<p><img src="./images/main/c5_7.png"></p>
+			<p><img src="./images/main/c5_8.png"></p>
+			<p><img src="./images/main/c5_9.png"></p>
+			<p><img src="./images/main/c5_10.png"></p>
+		</div>
+	</div>
+</section><!--//section-->
+
+
+
+<footer>
+	<div class="outer">
+		<div class="inner">
+			<div id="f_box1">
+				<h3><a href="#"><img src="./images/common/f_logo.png" alt="en_logo"></a></h3>
+			</div><!--f_box1종료-->
+			
+			<div id="f_box2">
+				<ul>
+					<li><a href="#">오시는 길</a></li>
+					<li><a href="#">개인정보처리방침</a></li>
+					<li><a href="#">고객센터</a></li>
+					<li><a href="#">1:1 이메일 문의</a></li>
+				</ul>
+				
+				<div id="whitetext">
+					<p>080-022-0056 (이용시간 평일 09:00~17:30)</p>
+					<address>경기도 남양주시 다산동 4344-3 / 경기도 남양주시 다산순환로 45(다산동)</address>
+					<p id="copy">&copy; Binggrae all rights reserved.</p>
+				</div><!--whitetext종료-->
+			</div><!--f_box2종료-->
+			
+			<div id="f_box3">
+				<div id="form">
+					<select id="familysite">
+						<option value="youtube">Family site</option>
+						<option value="youtube">빙그레기업유튜브</option>
+						<option value="insta">빙그레기업인스타그램</option>
+						<option value="tft">tft몰</option>
+					</select>
+				</div><!--form종료-->
+			
+				<ul>
+					<li><a href="#"><img src="./images/common/insta.png" alt="insta"></a></li>
+					<li><a href="#"><img src="./images/common/youtube.png" alt="insta"></a></li>
+					<li><a href="#"><img src="./images/common/facebook.png" alt="insta"></a></li>
+				</ul>
+			</div><!--f_box3종료-->
+		</div><!--inner종료-->
+	</div><!--outer종료-->
+</footer><!--footer종료-->
+
+</body>
+</html>
